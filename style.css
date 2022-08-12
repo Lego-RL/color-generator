@@ -9,6 +9,50 @@ body {
 }
 
 
+/* START NUMBER SLIDER STYLING */
+
+.slidecontainer {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 10%;
+    height: 10px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #cc8ef9;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #cc8ef9;
+    cursor: pointer;
+}
+
+
+/* START CONTAINER FOR COLORS STYLING */
+
 #color-container {
     display: flex;
     align-items: center;
